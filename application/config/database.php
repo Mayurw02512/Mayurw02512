@@ -75,8 +75,8 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
+	'hostname' => 'proddetailingsite-server.mysql.database.azure.com',
+	'username' => 'mjmozfiicu',
 	'password' => '',
 	'database' => 'demo',
 	'dbdriver' => 'mysqli',
