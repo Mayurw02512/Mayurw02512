@@ -26,8 +26,8 @@
           <td><?php echo $value->username; ?></td>
           <td><?php echo $value->password; ?></td>
           <td><?php echo $value->status; ?></td>
-          <td><a href="<?php echo base_url(); ?>user/<?php echo $value->id; ?>"><button type="button" class="btn btn-primary p-2">Edit</button></a></td>
-          <td><a href="<?php echo base_url(); ?>user/delete/<?php echo $value->id; ?>"><button type="button" class="btn btn-secondary p-2">Delete</button></a></td>
+          <td><a href="<?php echo base_url(); ?>index.php/user/<?php echo $value->id; ?>"><button type="button" class="btn btn-primary p-2">Edit</button></a></td>
+          <td><a href="<?php echo base_url(); ?>index.php/user/delete/<?php echo $value->id; ?>"><button type="button" class="btn btn-secondary p-2">Delete</button></a></td>
           </tr>
         <?php endforeach; ?>
         </tbody>
@@ -61,8 +61,8 @@
           <td><?php echo $value->description; ?></td>
           <td><?php echo $value->price; ?></td>
           <td><?php echo $value->status; ?></td>
-          <td><a href="<?php echo base_url(); ?>product/<?php echo $value->product_id; ?>"><button type="button" class="btn btn-primary p-2">Edit</button></a></td>
-          <td><a href="<?php echo base_url(); ?>admin/delete/<?php echo $value->product_id; ?>"><button type="button" class="btn btn-secondary p-2">Delete</button></a></td>
+          <td><a href="<?php echo base_url(); ?>index.php/product/<?php echo $value->product_id; ?>"><button type="button" class="btn btn-primary p-2">Edit</button></a></td>
+          <td><a href="<?php echo base_url(); ?>index.php/admin/delete/<?php echo $value->product_id; ?>"><button type="button" class="btn btn-secondary p-2">Delete</button></a></td>
           </tr>
         <?php endforeach; ?>
         </tbody>

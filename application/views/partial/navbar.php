@@ -12,11 +12,11 @@
               <li class="nav-item" data-bs-toggle="modal" data-bs-target=".Login"><a class="nav-link" href="#">Login</a></li>
               <li class="nav-item" data-bs-toggle="modal" data-bs-target=".Register"><a class="nav-link" href="#">Register</a></li>
               <?php }elseif (isset($_SESSION['admin'])){ ?>
-                <li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>admin/product">Product</a></li>
-                <li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>admin/user">Users</a></li>
-                <li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>login">Logout</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>index.php/admin/product">Product</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>index.php/admin/user">Users</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>index.php/login">Logout</a></li>
               <?php } else { ?>
-                <li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>login">Logout</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>index.php/login">Logout</a></li>
               <?php }  ?>
             </ul>
             <!-- <ul class="navbar-nav ms-auto">
@@ -34,7 +34,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <form action="<?php echo base_url(); ?>login" method="post" caption="Login Page">
+                <form action="<?php echo base_url(); ?>index.php/login" method="post" caption="Login Page">
                     <div class="row">
                         <div class="col-sm-12">
                             <input type="text" name="username" id="username" placeholder="Enter Username" class="form-control">
@@ -60,7 +60,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-            <form action="<?php echo base_url(); ?>register" method="post" caption="Registration Page">
+            <form action="<?php echo base_url(); ?>index.php/register" method="post" caption="Registration Page">
                 <div class="row">
                     <div class="col-sm-6">
                         <label for="Enter text">Name <span style="color: red;"> *</span></label>

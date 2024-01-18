@@ -50,16 +50,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'welcome';
-$route['login']['get']='login/logout';
-$route['login']['post']='login/login';
-$route['admin/product']='admin/product';
-$route['admin/user']='admin/user';
-$route['admin/edit/(:num)']['post']='admin/edit/$1';
-$route['admin/delete/(:num)']='admin/delete/$1';
-$route['user/(:num)']='user/index/$1';
-$route['user/edit/(:num)']['post']='user/edit/$1';
-$route['user/delete/(:num)']='user/delete/$1';
-$route['register']['post']='register/register';
-$route['product/(:num)']='product/index/$1';
+$route['index.php/login']['get']='login/logout';
+$route['index.php/login']['post']='login/login';
+$route['index.php/admin/product']='admin/product';
+$route['index.php/admin/user']='admin/user';
+$route['index.php/admin/edit/(:num)']['post']='admin/edit/$1';
+$route['index.php/admin/delete/(:num)']='admin/delete/$1';
+$route['index.php/user/(:num)']='user/index/$1';
+$route['index.php/user/edit/(:num)']['post']='user/edit/$1';
+$route['index.php/user/delete/(:num)']='user/delete/$1';
+$route['index.php/register']['post']='register/register';
+$route['index.php/product/(:num)']='product/index/$1';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

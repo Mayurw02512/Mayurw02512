@@ -4,7 +4,7 @@
       <?php foreach ($product as $value): ?>
         <div class="col-sm-3">
           <div class="row p-3"><div class="col-sm">
-            <a href="<?php echo base_url(); ?>product/<?php echo $value->product_id; ?>"><img src="<?php echo base_url(); ?>assets/product/<?php echo $value->image; ?>" class="img-thumbnail" alt="<?php echo $value->name; ?>"></a>
+            <a href="<?php echo base_url(); ?>index.php/product/<?php echo $value->product_id; ?>"><img src="<?php echo base_url(); ?>assets/product/<?php echo $value->image; ?>" class="img-thumbnail" alt="<?php echo $value->name; ?>"></a>
           </div></div>
           <div class="row p-3"><div class="col-sm">
             <strong><?php echo $value->name; ?></strong></br>

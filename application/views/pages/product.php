@@ -3,7 +3,7 @@
     <div class="col-sm-3"></div>
     <div class="col-sm-6 text-center">
     <?php if(isset($_SESSION['admin'])){ ?>
-      <form action="<?php echo base_url(); ?>admin/edit/<?php echo $product->product_id; ?>" method="post">
+      <form action="<?php echo base_url(); ?>index.php/admin/edit/<?php echo $product->product_id; ?>" method="post">
       <div class="row">
         <div class="col-sm p-4">
           <div class="row"><div class="col-sm">

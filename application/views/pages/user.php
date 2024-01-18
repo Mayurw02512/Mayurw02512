@@ -3,7 +3,7 @@
     <div class="col-sm-3"></div>
     <div class="col-sm-6 text-center">
         <div class="row"><div class="col-sm"><h2>Edit User Detail</h2></div</div>
-        <form action="<?php echo base_url(); ?>user/edit/<?php echo $user['0']->id; ?>" method="post" caption="Login Page">
+        <form action="<?php echo base_url(); ?>index.php/user/edit/<?php echo $user['0']->id; ?>" method="post" caption="Login Page">
             <div class="row">
                 <div class="col-sm-12">
                     <label for="Enter text">Name <span style="color: red;"> *</span></label>
