@@ -24,8 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = 'https://localhost/azureproject';
-$config['asset_url'] = 'https://localhost/azureproject/assets/product';
+$config['base_url'] = 'https://proddetailingsite.azurewebsites.net/';
 
 /*
 |--------------------------------------------------------------------------
