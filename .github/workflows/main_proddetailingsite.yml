@@ -19,7 +19,7 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2'
+          php-version: '8.0'
 
       - name: Check if composer.json exists
         id: check_files
@@ -46,6 +46,8 @@ jobs:
     environment:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+    permissions:
+      id-token: write #This is required for requesting the JWT
 
     steps:
       - name: Download artifact from build job
@@ -55,6 +57,13 @@ jobs:
 
       - name: Unzip artifact for deployment
         run: unzip release.zip
+      
+      - name: Login to Azure
+        uses: azure/login@v1
+        with:
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_F8B6D0B7C12A4C8CB3325A86235BA6A5 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_992C6AEA7E0844B98E1DDB99792B5352 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_6D244AEBBCBC4ED9A63452F819014855 }}
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
@@ -62,5 +71,5 @@ jobs:
         with:
           app-name: 'ProdDetailingSite'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_846EA51F3850478D87438CED16FA035A }}
           package: .
+          
