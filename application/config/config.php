@@ -26,7 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // $root  = "https://".$_SERVER['HTTP_HOST'];
 // $root .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
 // $config['base_url']    = $root;
-$config['base_url'] = 'https://proddetailingsite.azurewebsites.net/index.php';
+$config['base_url'] = 'https://proddetailingsite.azurewebsites.net/';
 
 /*
 |--------------------------------------------------------------------------
@@ -38,7 +38,7 @@ $config['base_url'] = 'https://proddetailingsite.azurewebsites.net/index.php';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '/';
 
 /*
 |--------------------------------------------------------------------------
