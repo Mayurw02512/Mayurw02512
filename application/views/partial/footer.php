@@ -1,4 +1,5 @@
-<iframe src="https://webchat.botframework.com/embed/mynbot-kblang-bot?s=tJpXvCwD25A.aR8W4a8gMEBG4w_FQz0bXG82IiGvwyN03uG5KedHv4c" style="height: 502px; max-height: 502px;"></iframe>
+<div><iframe src="https://webchat.botframework.com/embed/mynbot-kblang-bot?s=tJpXvCwD25A.aR8W4a8gMEBG4w_FQz0bXG82IiGvwyN03uG5KedHv4c" style="height: 502px; max-height: 502px;"></iframe>
+</div>
 <script>
         var chatbotButton = document.getElementById('chatbotButton');
         var closeChatbotButton = document.getElementById('closeChatbotButton');
