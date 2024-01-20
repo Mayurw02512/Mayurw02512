@@ -3,7 +3,7 @@
 <br>
 <h2>Project Details</h2>
 <b>Project Demo URL :</b> https://proddetailingsite.azurewebsites.net/ <br>
-<b>Demo Video URL :</b>  <br>
+<b>Demo Video URL :</b> https://drive.google.com/file/d/1vsr6FjpoUi2YTTf47eQxWNsZdvqXk2X4/view <br>
 <b>Github Repository URL :</b> https://github.com/Mayurw02512/ProdDetailingSite.git <br>
 <b>Industry :</b> Information Technology<br>
 <h2>Azure Services Used</h2>
