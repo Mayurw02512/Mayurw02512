@@ -56,6 +56,8 @@ Azure AI Service <br>
 <img src="https://github.com/Mayurw02512/ProdDetailingSite/blob/main/screenshot/azureaiservice.png" alt="azure-Language-ai-service"></img><br>
 <h3>Working Live Project Display</h3>
 <b>Description :</b><p align="justify">Here I am attaching the final working website's screenshot for the reference.</p>
+<img src="https://github.com/Mayurw02512/ProdDetailingSite/blob/main/screenshot/app1.png" alt="azure-app-service"></img><br>
+<img src="https://github.com/Mayurw02512/ProdDetailingSite/blob/main/screenshot/app2.png" alt="azure-app-service"></img><br>
 <img src="https://github.com/Mayurw02512/ProdDetailingSite/blob/main/screenshot/app.png" alt="final-project-demo"></img>
 
 <h3>Resource Visualizer</h3>
